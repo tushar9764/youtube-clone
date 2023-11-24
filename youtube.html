@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">9</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/myProfile.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <a href="https://www.youtube.com/watch?v=cgyYXw7qLQg" target="_self">
+            <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+              <div class="video-time">3:22</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Boy In Space - 7up [Official Video]
+                </p>
+                <p class="video-author">
+                  Boy In Space
+                </p>
+                <p class="video-stats">
+                  3.2M views &#183; 4 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=AJj43lbaYUI" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                  <div class="video-time">4:51</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Apocalypse - Cigarettes After Sex
+                    </p>
+                    <p class="video-author">
+                      Cigarettes After Sex
+                    </p>
+                    <p class="video-stats">
+                      193M views &#183; 6 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=sFMRqxCexDk" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                  <div class="video-time">3:54</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Choo Lo (Official Audio)
+                    </p>
+                    <p class="video-author">
+                      The Local Train
+                    </p>
+                    <p class="video-stats">
+                  36 views &#183; 7 year ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=qtZzTDRSdZ4" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                  <div class="video-time">24:26</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      The Tail of the Dream Girl
+                    </p>
+                    <p class="video-author">
+                      Are You Afraid of the Dark?
+                    </p>
+                    <p class="video-stats">
+                      59K views &#183; 1 year ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=d1C8zUfieC4&t=1617s" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                  <div class="video-time">1:05:06</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Songs to get Lost in
+                    </p>
+                    <p class="video-author">
+                      Aminium Music
+                    </p>
+                    <p class="video-stats">
+                      2.1M views &#183; 4 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=Kajvw8HnRmk&t=117s" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                  <div class="video-time">27:10</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Winter Bulk Day 25 - Back
+                    </p>
+                    <p class="video-author">
+                      Sam Sulek
+                    </p>
+                    <p class="video-stats">
+                      336K views &#183; 3 days ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+ 
+        <a href="https://www.youtube.com/watch?v=du7paNLQN9M" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                  <div class="video-time">2:44</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Lie To Me
+                    </p>
+                    <p class="video-author">
+                      5SOS
+                    </p>
+                    <p class="video-stats">
+                      20M views &#183; 4 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+ 
+        <a href="https://www.youtube.com/watch?v=enR89zBqv1o" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                  <div class="video-time">2:41</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Faime - Rain (Official Audio)
+                    </p>
+                    <p class="video-author">
+                      Faime
+                    </p>
+                    <p class="video-stats">
+                      173K views &#183; 4 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=qPTfXwPf_HM" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                  <div class="video-time">3:03</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Mama
+                    </p>
+                    <p class="video-author">
+                      Jonas Blue
+                    </p>
+                    <p class="video-stats">
+                      814M views &#183; 6 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=hWFDHynfl1E" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                  <div class="video-time">17:39</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      The Philosophy of Rick and Morty
+                    </p>
+                    <p class="video-author">
+                      Wisecrack
+                    </p>
+                    <p class="video-stats">
+                      8.8M views &#183; 7 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=dwQ1hsfv4N4&t=209s" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                  <div class="video-time">10:07</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      'This Is Sacrifice, This Is Ultimate Sacrifice' Blackout Tattoos
+                    </p>
+                    <p class="video-author">
+                      Inked
+                    </p>
+                    <p class="video-stats">
+                      322K views &#183; 10 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=BI54sKyqS7Y" target="_self">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                  <div class="video-time">3:48</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Jordan Fisher - Mess (Official Video)
+                    </p>
+                    <p class="video-author">
+                      Jordan Fisher
+                    </p>
+                    <p class="video-stats">
+                      5.1M views &#183; 6 years ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </a>
+   
+
+
+      </section>
+    </main>
+  </body>
+</html>
